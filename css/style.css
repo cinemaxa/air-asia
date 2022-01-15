@@ -1,57 +1,54 @@
-body{
-    background: #001821;
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 1.42;
-    font-family: 'Open Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+body {
+  background: #001821;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.42;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-a{
-    color: inherit;
+a {
+  color: inherit;
 }
-ul{
-    padding: 0;
-    margin: 0;
+ul {
+  padding: 0;
+  margin: 0;
 }
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
-.container{
-    margin: 0 auto;
-    width: 1141px;
+.container {
+  margin: 0 auto;
+  width: 1141px;
 }
 .main-header {
-position: relative;
-height: 120px;
-
+  position: relative;
+  height: 120px;
 }
-.main-header__logo{
-    display: block;
-    position: absolute;
-    top: 29px;
-    left: 0;
-
+.main-header__logo {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 0;
 }
-.menu{
-    position: absolute;
-    top: 42px;
-    left: 164px;
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 164px;
 }
 .contacts {
-    position: absolute;
-    top: 26px;
-    left: 950px;
+  position: absolute;
+  top: 26px;
+  left: 950px;
 }
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 54px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
 }
-.menu__link{
-    font-size: 14px;
+.menu__link {
+  font-size: 14px;
 }
-.menu__link:hover{
-    color: #DA0100;
-    font-weight: 400;
+.menu__link:hover {
+  color: #da0100;
 }
