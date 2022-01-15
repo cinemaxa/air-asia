@@ -53,4 +53,5 @@ height: 120px;
 }
 .menu__link:hover{
     color: #DA0100;
+    font-weight: 400;
 }
