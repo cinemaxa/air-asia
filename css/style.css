@@ -62,7 +62,7 @@ ul li {
 .main-header {
   position: relative;
   height: 120px;
-  margin-bottom: 135px;
+  margin-bottom: 81px;
 }
 .main-header__logo {
   display: block;
@@ -72,18 +72,20 @@ ul li {
 }
 .menu {
   position: absolute;
-  top: 42px;
+  top: 40px;
   left: 164px;
 }
 .contacts {
   position: absolute;
-  top: 26px;
-  left: 950px;
+  top: 20px;
+  left: 948px;
+  font-style: normal;
+  text-align: right;
 }
 .menu__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 54px;
+  margin-right: 50px;
 }
 .menu__link {
   font-size: 14px;
@@ -91,38 +93,36 @@ ul li {
 }
 .menu__item:last-child {
   margin: 0;
-  padding: 0;
 }
 .menu__link:hover {
   color: #da0100;
 }
-.contacts {
-  font-style: normal;
-  text-align: right;
-}
+
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 4px;
 }
 .contacts__dropdown-title {
-  font-style: 13px;
+  font-size: 13px;
   text-decoration: underline;
 }
 .hero__text-section {
   width: 511px;
+  height: 191px;
 }
 .hero__tittle {
   font-size: 72px;
   font-weight: bold;
-  line-height: 1.1;
-  margin-bottom: 28px;
+  line-height: 1.3;
+  margin-bottom: 29px;
 }
 .hero__subttitle {
   font-size: 18px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
 }
 .button {
+  display: inline-block;
   background: #f5170e;
   border-radius: 35px;
   padding: 18px 40px;
