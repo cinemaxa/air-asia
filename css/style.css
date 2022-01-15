@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
   height: 100%;
@@ -26,6 +27,27 @@ ul li {
   width: 100%;
   background: #001821;
 }
+=======
+body {
+  background: #001821;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.42;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+>>>>>>> d0da457b5179215c12e052aec60ee2bd4cbd70e1
 .container {
   margin: 0 auto;
   width: 1141px;
