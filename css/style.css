@@ -77,8 +77,8 @@ ul li {
 }
 .contacts {
   position: absolute;
-  top: 20px;
-  left: 948px;
+  top: 27px;
+  left: 950px;
   font-style: normal;
   text-align: right;
 }
@@ -106,6 +106,9 @@ ul li {
 .contacts__dropdown-title {
   font-size: 13px;
   text-decoration: underline;
+  position: relative;
+  bottom: 8px;
+  right: 2px;
 }
 .hero__text-section {
   width: 511px;
