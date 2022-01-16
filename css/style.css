@@ -135,3 +135,23 @@ ul li {
   text-transform: uppercase;
   text-decoration: none;
 }
+.hot-offer {
+  margin-bottom: 127px;
+}
+.hot-offers__tittle {
+  font-size: 36px;
+  margin-bottom: 51px;
+}
+.offers__item {
+  min-height: 450px;
+  background: #ffffff;
+
+  display: inline-block;
+  border-radius: 0px 0px 5px 5px;
+  margin-right: 17px;
+  width: 360px;
+}
+.offers__header {
+  min-height: 144px;
+  margin-bottom: 33px;
+}
