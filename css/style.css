@@ -54,7 +54,9 @@ ul {
 ul li {
   list-style: none;
 }
-
+.hero {
+  margin-bottom: 246px;
+}
 .container {
   margin: 0 auto;
   width: 1141px;
