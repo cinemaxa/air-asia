@@ -2,6 +2,9 @@ html,
 body {
   height: 100%;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   color: #ffffff;
   font-size: 16px;
@@ -151,7 +154,49 @@ ul li {
   margin-right: 17px;
   width: 360px;
 }
+.offers__item:last-child {
+  margin-right: 0;
+}
+
 .offers__header {
   min-height: 144px;
+}
+.offers__content {
+  padding: 22px 26px;
+}
+.offers__tittle {
+  font-weight: bold;
+  color: #000000;
   margin-bottom: 33px;
+}
+.offers__conditions {
+  color: #666666;
+  margin-bottom: 24px;
+}
+
+.offers__conditions-day {
+  display: inline-block;
+  vertical-align: top;
+  width: 80px;
+  margin-right: 73px;
+}
+.offers__conditions-food {
+  display: inline-block;
+  vertical-align: top;
+  width: 80px;
+  margin-right: 0;
+}
+.offers__discription {
+  color: #303030;
+  margin-bottom: 25px;
+}
+.btn-color-white {
+  background: #ffffff;
+  color: #f5170e;
+  border: 1px solid #f5170e;
+  border-radius: 35px;
+}
+.btn-color-white:hover {
+  background: #f5170e;
+  color: #ffffff;
 }
