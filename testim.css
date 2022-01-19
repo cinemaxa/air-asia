@@ -1,6 +1,14 @@
-.offers__conditions-day {
-  border: 1px solid brown;
+.offer__conditions {
+  display: flex;
+  max-width: 271px;
+  justify-content: space-around;
 }
-.offers__conditions-food {
-  border: 1px solid blueviolet;
+
+.offers__conditions__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  margin-left: 10px;
 }

@@ -169,26 +169,24 @@ ul li {
   color: #000000;
   margin-bottom: 33px;
 }
-.offers__conditions {
+.offer__conditions {
+  display: flex;
+  max-width: 271px;
+  justify-content: space-between;
+}
+
+.offers__conditions__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  margin-left: 10px;
   color: #666666;
-  margin-bottom: 24px;
-  display: inline-block;
-  vertical-align: top;
-  width: 271px;
+  font-size: 16px;
 }
 
-.offer__img {
-  width: 26px;
-  height: 26px;
-  margin: 0;
-}
-.offers__conditions-day {
-  margin-right: 73px;
-}
-
-.offers__conditions-food {
-  margin-right: 0;
-}
 .offers__discription {
   color: #303030;
   margin-bottom: 25px;
