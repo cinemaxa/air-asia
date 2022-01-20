@@ -159,12 +159,15 @@ ul li {
   flex-direction: column;
   border-radius: 5px;
 }
+.img {
+  display: block;
+}
 .offers__content {
   background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 240px;
+  min-height: 247px;
   padding: 33px 16px 26px 22px;
 }
 .offer__conditions {
@@ -194,11 +197,15 @@ ul li {
   font-size: 14px;
 }
 .btn-color-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #ffffff;
   color: #f5170e;
   border: 1px solid #f5170e;
   border-radius: 35px;
-  width: 76px;
+  width: 56px;
+  height: 20px;
 }
 .btn-color-white:hover {
   background: #f5170e;
