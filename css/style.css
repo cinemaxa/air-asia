@@ -36,7 +36,7 @@ h6 {
 .wrapper {
   height: 100%;
   width: 100%;
-  background: #001821;
+  
 }
 body {
   background: #001821;
@@ -175,7 +175,7 @@ ul li {
   justify-content: space-between;
 }
 
-.offers__conditions__inner {
+.offers__conditions-inner {
   display: flex;
   justify-content: space-around;
   align-items: center;
