@@ -300,8 +300,7 @@ ul li {
   color: #f5170e;
 }
 .about-us {
-  display: flex;
-  flex-direction: row;
+  margin-bottom: 38px;
 }
 .about::before {
   content: "";
@@ -330,8 +329,8 @@ ul li {
 }
 .about__desc-text {
   color: #000;
-  font-weight: bold;
 }
 .about__desc-text p:last-child {
   margin-bottom: 0 px;
 }
+
