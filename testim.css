@@ -33,6 +33,9 @@ h6 {
   margin: 0;
   font-weight: normal;
 }
+p {
+  margin-top: 0;
+}
 /* ************** */
 body {
   background: #001821;
@@ -295,4 +298,40 @@ ul li {
 .pager__link:hover {
   background: #ffffff;
   color: #f5170e;
+}
+.about-us {
+  display: flex;
+  flex-direction: row;
+}
+.about::before {
+  content: "";
+  display: block;
+  width: 488px;
+  height: 495px;
+  background: url(/img/gates.jpg) center center/cover no-repeat;
+  border-radius: 5px;
+}
+.about__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 318px;
+  border-radius: 5px;
+  padding: 77px 203px 66px 82px;
+  margin-left: 353px;
+  margin-top: -416px;
+  background: url(img/mountains.jpg) center center/cover no-repeat;
+}
+.about__title {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+}
+.about__desc-text {
+  color: #000;
+  font-weight: bold;
+}
+.about__desc-text p:last-child {
+  margin-bottom: 0 px;
 }
