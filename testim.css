@@ -14,6 +14,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
 }
+address {
+  font-style: normal;
+}
 a {
   color: inherit;
 }
@@ -57,8 +60,12 @@ ul li {
   list-style: none;
 }
 .wrapper {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
+}
+.main-page-wrapper {
+  background: url(/img/1.jpg) center top no-repeat,url(img/2.jpg) center bottom no-repeat ;
+ 
 }
 .container {
   margin: 0 auto;
@@ -220,7 +227,7 @@ ul li {
   color: #ffffff;
 }
 .news {
-  margin-bottom: 153px;
+  margin-bottom: 146px;
 }
 .news__tittle {
   font-size: 36px;
@@ -300,13 +307,13 @@ ul li {
   color: #f5170e;
 }
 .about-us {
-  margin-bottom: 38px;
+  margin-bottom: 56px;
 }
 .about::before {
   content: "";
   display: block;
-  width: 488px;
-  height: 495px;
+  width: 487px;
+  height: 502px;
   background: url(/img/gates.jpg) center center/cover no-repeat;
   border-radius: 5px;
 }
@@ -315,7 +322,7 @@ ul li {
   flex-direction: column;
   justify-content: space-between;
   width: 500px;
-  height: 318px;
+  height: 320px;
   border-radius: 5px;
   padding: 77px 203px 66px 82px;
   margin-left: 353px;
@@ -333,4 +340,79 @@ ul li {
 .about__desc-text p:last-child {
   margin-bottom: 0 px;
 }
+.footer {
+  height: 87px;
+  border-top: 1px solid #ffffff10;
+  /* margin-bottom: 58px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.social__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+.socials__item--icon--tg .social__link {
+  background: url(img/svg/t.svg);
+}
+.socials__item--icon--tg .social__link:hover {
+  background: url(img/svg/t-1.svg);
+}
+.socials__item--icon--vk .social__link {
+  background: url(img/svg/vk.svg);
+}
+.socials__item--icon--vk .social__link:hover {
+  background: url(img/svg/vk-1.svg);
+}
+.socials__item--icon--fb .social__link {
+  background: url(img/svg/facebook.svg);
+}
+.socials__item--icon--fb .social__link:hover {
+  background: url(img/svg/f2.svg);
+}
+.socials__item--icon--inst .social__link {
+  background: url(img/svg/in.svg);
+}
+.socials__item--icon--inst .social__link:hover {
+  background: url(img/svg/in-1.svg);
+}
+.footer__menu,
+.social {
+  display: flex;
+  flex-direction: row;
+}
+.social__item {
+  margin-right: 10px;
+}
+.social__item:last-child {
+  margin-right: 0;
+}
 
+.footer__list {
+  display: flex;
+}
+.footer__item {
+  margin-right: 54px;
+}
+.footer__item:last-child {
+  margin-right: 0;
+}
+.footer__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #da0100;
+}
+.footer__contacts {
+  display: block;
+  right: auto;
+  text-align: end;
+}
+.contacts__dropdown {
+  font-size: 11px;
+  color: #9a9a9a;
+}
