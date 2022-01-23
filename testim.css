@@ -55,7 +55,7 @@ body {
   width: 100%;
 } */
 .main-page-wrapper {
-  background: url(/img/1.jpg) center top no-repeat,
+  background: url(img/1.jpg) center top no-repeat,
     url(img/2.jpg) center bottom 165px no-repeat;
 }
 .container {
