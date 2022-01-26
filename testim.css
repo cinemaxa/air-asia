@@ -50,7 +50,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 .main-page-wrapper {
   background: url(/img/slon.jpg) center top no-repeat,
     url(img/2.jpg) center bottom 165px no-repeat;
@@ -60,25 +59,25 @@ body {
   width: 1141px;
 }
 .header {
-  position: relative;
-  min-height: 120px;
-  margin-bottom: 81px;
+  margin-bottom: 120px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  justify-content: flex-end;
 }
 .header__logo {
   display: block;
-  position: absolute;
-  top: 29px;
-  left: 0;
+  margin-right: 80px;
 }
-.menu {
-  position: absolute;
-  top: 40px;
-  left: 164px;
-}
+
 .contacts {
-  position: absolute;
-  top: 27px;
-  left: 950px;
   font-style: normal;
   text-align: right;
 }
@@ -331,10 +330,22 @@ body {
 .footer {
   height: 87px;
   border-top: 1px solid #ffffff10;
-  /* margin-bottom: 58px; */
+  padding-bottom: 58px;
   display: flex;
   justify-content: space-between;
+}
+.footer__col {
+  display: flex;
   align-items: flex-end;
+}
+.footer__col--align--right {
+  justify-content: flex-end;
+}
+.footer__logo {
+  margin-right: 80px;
+}
+.social {
+  margin-right: 75px;
 }
 .social__link {
   display: block;
