@@ -6,7 +6,7 @@
   display: block;
   width: 487px;
   height: 502px;
-  background: url(/img/gates.jpg) center center/cover no-repeat;
+  background: url(../img/gates.jpg) center center/cover no-repeat;
   border-radius: 5px;
 }
 .about__desc {
