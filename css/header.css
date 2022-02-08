@@ -1,0 +1,49 @@
+.header {
+  margin-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  justify-content: flex-end;
+}
+.header__logo {
+  display: block;
+  margin-right: 80px;
+}
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu__item:last-child {
+  margin: 0;
+}
+.menu__link:hover {
+  color: #da0100;
+}
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  position: relative;
+  bottom: 8px;
+  right: 2px;
+}
